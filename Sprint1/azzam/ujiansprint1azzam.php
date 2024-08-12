@@ -20,5 +20,12 @@ echo "<br>";
 $x = 50;
 $x += 30;
 echo $x;
+echo "<br>";
+$y = 30;
+$y += 10;
+echo $y;
+echo "<br>";
 
+var_dump($x != 50);
+var_dump($y .= 40);
 ?>
